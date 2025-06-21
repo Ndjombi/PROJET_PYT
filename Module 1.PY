@@ -1,5 +1,6 @@
 import re
 from decimal import decimal
+
 def nettoyer_saisie(nombre_str):
     ""supprime les espaces inutiles et verifie si l'entree est valide.
     nombre_str=nombre_str.strip().replace("";"")
